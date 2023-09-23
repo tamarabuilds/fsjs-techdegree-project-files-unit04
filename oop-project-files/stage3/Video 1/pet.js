@@ -63,7 +63,7 @@ vera.speak();
 console.log(ernie)
 
 ernie.owner = new Owner('Tamara', '1234 Main Street')
-ernie.owner.phone = '(555) 555-5555'
+ernie.owner.phone = '(555) 555-1234'
 console.log(ernie.owner);
 console.log(ernie.owner.name);
 console.log(ernie.owner.address);
