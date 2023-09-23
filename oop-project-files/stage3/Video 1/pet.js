@@ -68,3 +68,6 @@ console.log(ernie.owner);
 console.log(ernie.owner.name);
 console.log(ernie.owner.address);
 console.log(ernie.owner.phone);
+
+
+
