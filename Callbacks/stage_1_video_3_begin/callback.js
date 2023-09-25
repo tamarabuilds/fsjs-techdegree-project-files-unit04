@@ -1,3 +1,10 @@
-function sayHello() {
-    console.log('Hello');
+function executeCallBack (callback ) {
+    callback();
 }
+
+// print hello
+executeCallBack( () =>  console.log('Hello'));
+
+// print goodbye
+
+executeCallBack(() => console.log('Goodbye'));

@@ -21,3 +21,8 @@ function getTime() {
 function tickClock() {
   clockSection.textContent = getTime();
 }
+
+// tickClock()
+
+// setInterval( tickClock , 1000);
+setInterval( ()=> clockSection.textContent = getTime() , 1000);
